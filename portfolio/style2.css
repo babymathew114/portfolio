@@ -1,0 +1,52 @@
+/* RESET RULE  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site-heading{
+    background-color: #dd1155;
+    color: #6A0F49;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1{
+font-family: 'Nanum Brush Script', cursive;
+font-size: 4rem;
+}
+
+.site-heading nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content:  space-around;
+}
+
+.site-heading a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+
+    /* familyimage*/
+    .family{
+        height: 100vh;
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        margin-bottom: 200px;
+    }
+   #portrait{
+    height: 50vh;
+    width: 50vw;
+   }
+
+   #pix{
+    height: 100%;
+
+   }
+   .bio{
+    display: flex;
+    flex-direction: row;
+   }
